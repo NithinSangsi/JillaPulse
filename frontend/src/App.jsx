@@ -22,6 +22,8 @@ function App() {
   };
 
   return (
+  <div className="app-container">
+
     <div className={`app ${darkMode ? "dark" : "light"}`}>
       <nav className="navbar">
         {/* <h2 className="app-title">JillaPulse</h2> */}
@@ -34,6 +36,7 @@ function App() {
           {darkMode ? "Light ☀️" : "Dark 🌙"}
         </button>
     </nav>
+    <div className="main-content">
 
       {!dashboardData && (
         <div className="welcome">
@@ -60,10 +63,10 @@ function App() {
             <NewsList news={dashboardData.news} />
           </section>
         </>
-        
-      )}
+        )}
+      </div>
+
   
-    {/* ✅ ADD FOOTER HERE */}
     <footer className="footer">
       <div className="footer-content">
         <h3>JillaPulse</h3>
@@ -78,6 +81,8 @@ function App() {
     </footer>
 
   </div>
+</div>
+
 
   );
 }
