@@ -1,10 +1,4 @@
 # 🌍 JillaPulse
-# <p align="center">
-  <img src="assets/JP.png" alt="JillaPulse Logo" width="60" />
-  <span style="font-size: 32px; font-weight: bold; vertical-align: middle; margin-left: 10px;">
-    JillaPulse
-  </span>
- </p>
 
 **JillaPulse provides real-time district-level Weather insights and the latest News updates across India in one unified dashboard.**  
 **It helps users instantly understand local climate conditions and trending headlines for any selected district.**
