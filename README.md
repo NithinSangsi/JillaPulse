@@ -201,8 +201,11 @@ nodemon server.js
 Backend runs on PORT 5000 [in my case]
 
 In Terminal :
+
 Server running on port 5000
+
 Weather fetched successfully
+
 News fetched successfully
 
 ## 3️⃣ Start Frontend
