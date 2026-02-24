@@ -1,4 +1,15 @@
-# 🌍 JillaPulse
+
+<p align="center">
+  <img src="assets/jp-logo.png" alt="JillaPulse Logo" width="90"/>
+</p>
+
+<h1 align="center">JillaPulse</h1>
+
+<p align="center">
+  Real-Time District Weather & News Dashboard for India
+</p>
+
+---
 
 **JillaPulse provides real-time district-level Weather insights and the latest News updates across India in one unified dashboard.**  
 **It helps users instantly understand local climate conditions and trending headlines for any selected district.**
