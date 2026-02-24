@@ -130,12 +130,33 @@ body {
 }
 
 .app {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background: linear-gradient(135deg, #2f3e46, #354f52);
   color: #ffffff;
   transition: 0.3s ease;
+  min-height: 100vh;       /* Full screen height */
+  display: flex;
+  flex-direction: column;
+}
+/* ================= PAGE LAYOUT FIX ================= */
+
+/* Make entire page full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
 }
 
+/* Main App Wrapper */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* This pushes footer to bottom */
+.main-content {
+  flex: 1;
+}
 /* NAVBAR */
 .navbar {
   display: flex;
@@ -150,11 +171,7 @@ body {
   background: #020617;
 }
 
-/* .app-title {
-  font-size: 2.2rem;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-} */
+
  /* Navbar Layout */
 .navbar {
   display: flex;
